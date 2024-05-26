@@ -1,0 +1,17 @@
+Auth : 
+http://localhost:4060/api/auth
+    /signup    : { firstname, lastname, email , password, gender } = req.body;
+    /login     : { email, password } = req.body;
+    /logout
+    /delete
+
+Profile : 
+http://localhost:4060/api/profile 
+    /updatebio
+    /addfriend/:id
+    /getuser/:id
+
+Discution : 
+http://localhost:4060/api/discution
+    /createDiscutino/:id
+    /sentMessage/:id
